@@ -134,7 +134,7 @@ if(USE_HDF5)
   #####
   # First, find the C and HL libraries.
   #####
-  find_package(HDF5 COMPONENTS C HL REQUIRED)
+  #find_package(HDF5 COMPONENTS C HL REQUIRED)
 
   message(STATUS "Found HDF5 version: ${HDF5_VERSION}")
   if(${HDF5_VERSION} VERSION_LESS ${HDF5_VERSION_REQUIRED})
